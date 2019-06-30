@@ -4,9 +4,11 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="">
+    <div className="wrapper boxy">
       <Header />
-      <p>hello world</p>
+      <div className="gridWrapper">
+        <p>g</p>
+      </div>
     </div>
   );
 }

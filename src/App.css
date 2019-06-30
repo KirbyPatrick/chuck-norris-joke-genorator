@@ -3,7 +3,13 @@
 }
 
 body {
-  background-color: #f4e2a1;
+  background-color: hsl(47, 79%, 79%);
+  height: 100%;
+}
+
+.wrapper {
+  margin: auto;
+  height: 600px;
 }
 
 .headerContainer {
@@ -36,4 +42,10 @@ img {
   display: flex;
   width: 200%;
   justify-content: center;
+}
+
+.gridWrapper {
+  display: grid;
+  grid-template-rows: 25% 100px auto;
+  border: blue solid;
 }
