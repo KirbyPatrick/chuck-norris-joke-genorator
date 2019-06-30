@@ -1,4 +1,39 @@
 .boxy {
   border: dotted red;
+}
+
+body {
+  background-color: #f4e2a1;
+}
+
+.headerContainer {
   display: flex;
+  margin-top: 1em;
+  background: #f86300;
+  box-shadow: 10px 5px 5px;
+}
+
+.headerContainer > h3 {
+  margin: 2em;
+}
+
+.logoContainer {
+  display: flex;
+  margin: 1em;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+img {
+  justify-content: flex-end;
+}
+
+.menuContainer {
+  width: 200px;
+}
+
+.titleContainer {
+  display: flex;
+  width: 200%;
+  justify-content: center;
 }
