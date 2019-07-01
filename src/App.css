@@ -47,5 +47,18 @@ img {
 .gridWrapper {
   display: grid;
   grid-template-rows: 25% 100px auto;
-  border: blue solid;
+}
+
+.cardStyle {
+  margin: auto;
+  margin-top: 40px;
+  max-width: 30%;
+  min-width: 30%;
+  height: 500px;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
 }
