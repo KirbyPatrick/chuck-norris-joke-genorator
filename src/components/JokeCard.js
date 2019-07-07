@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Card from "@material-ui/core/Card";
 import NewJokeButton from "./NewJokeButton";
+import cardImage from "../cardImage.png";
 
 class JokeCard extends Component {
   render() {
     return (
       <div>
-        <Card className="cardStyle">
+        <div className="cardStyle">
           <h1>Card Title</h1>
-          <img src="https://via.placeholder.com/250x250" alt="" />
+          <img className="cardImage" src={cardImage} alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
             magnam eligendi blanditiis qui officia alias doloribus saepe veniam
@@ -16,7 +16,7 @@ class JokeCard extends Component {
             Recusandae, laboriosam.
           </p>
           <NewJokeButton />
-        </Card>
+        </div>
       </div>
     );
   }

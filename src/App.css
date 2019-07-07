@@ -52,13 +52,20 @@ img {
 .cardStyle {
   margin: auto;
   margin-top: 40px;
-  max-width: 30%;
-  min-width: 30%;
+  max-width: 550px;
   height: 500px;
   text-align: center;
+  padding: 5px;
+  background: #28a6dc;
+  box-shadow: 10px 5px 5px;
 }
 
 .buttonContainer {
   display: flex;
   justify-content: center;
+}
+
+.cardImage {
+  width: 350px;
+  height: 250px;
 }
