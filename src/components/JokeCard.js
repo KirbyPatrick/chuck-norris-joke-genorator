@@ -1,21 +1,24 @@
 import React, { Component } from "react";
-import NewJokeButton from "./NewJokeButton";
 import cardImage from "../cardImage.png";
+import NewJokeButton from "./NewJokeButton";
 
 class JokeCard extends Component {
+  state = {
+    joke: "lorem ipasdf asdf asdf asdf asdf asdf asdfasdfasdf asdf asdfasdf "
+  };
+
+  handleClick() {
+    console.log("handleClick is working");
+  }
+
   render() {
     return (
       <div>
         <div className="cardStyle">
           <h1>Card Title</h1>
           <img className="cardImage" src={cardImage} alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            magnam eligendi blanditiis qui officia alias doloribus saepe veniam
-            atque quae veritatis eum, nihil dicta unde optio in reiciendis?
-            Recusandae, laboriosam.
-          </p>
-          <NewJokeButton />
+          <p>{this.state.joke}</p>
+          <NewJokeButton onClick={this.handleClick} />
         </div>
       </div>
     );
