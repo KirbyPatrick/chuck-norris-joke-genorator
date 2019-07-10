@@ -6,25 +6,20 @@ class JokeCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      joke: "asdf"
+      joke:
+        "What's the difference between Jam and Jelly? Chuck Norris CANNOT Jelly his fist up your ass"
     };
     this.handleClick = this.handleClick.bind(this);
   }
-
-  // getJoke = async e => {
-  //   e.preventDefault();
-  //   const req = await fetch(`https://api.chucknorris.io/jokes/random`);
-
-  //   const res = await req.json();
-  //   this.setState({ joke: res.value });
-  //   console.log(this.state.joke);
-  // };
 
   getJoke = async e => {
     e.preventDefault();
     const api_call = await fetch("https://api.chucknorris.io/jokes/random");
     const data = await api_call.json();
-    console.log(data);
+    console.log(data.value);
+    this.setState({
+      joke: data.value
+    });
   };
 
   handleClick() {
@@ -38,10 +33,12 @@ class JokeCard extends Component {
     return (
       <div>
         <div className="cardStyle">
-          <h1>Card Title</h1>
+          <h1>FACT:</h1>
           <img className="cardImage" src={cardImage} alt="" />
-          <p>{this.state.joke}</p>
-          <NewJokeButton onClick={this.handleClick} />
+          <div className="paragraphContainer ">
+            <p>{this.state.joke}</p>
+          </div>
+          <NewJokeButton onClick={this.getJoke} />
         </div>
       </div>
     );
