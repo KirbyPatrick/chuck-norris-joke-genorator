@@ -1,16 +1,27 @@
 import React from "react";
+import kickPic from "../img/kickPic.jpg";
+
+const aboutDivStyles = {
+  margin: 'auto',
+  marginTop: '5%',
+  background: '#28a6dc',
+  height: '33%',
+  width: '50%'
+}
+
+const aboutH1Styles = {
+  textAlign: 'center',
+  fontSize: 20
+}
+
 
 const About = () => {
   return (
-    <div>
-      <p>
-        About Page: Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Voluptates pariatur enim, repudiandae est modi temporibus! Ut laboriosam
-        voluptatem molestias. Pariatur ullam quaerat doloribus quod perferendis
-        iusto exercitationem qui a tempora. Lorem ipsum dolor sit amet
-        consectetur, adipisicing elit. Molestiae voluptatum eligendi assumenda
-        harum inventore nam ipsum dolore sint. Autem sed molestiae, quis
-        blanditiis est pariatur labore alias molestias deserunt nesciunt!
+    <div className='cardStyle'>
+    <h1>About This App:</h1>
+      <img className="cardImage" src={kickPic} alt="Picture of Chuck Norris kicking" />
+      <p style={aboutH1Styles}>
+        This web app was created using React, React Router, and <a href="https://api.chucknorris.io/">chucknorris.io</a> as it's API.
       </p>
     </div>
   );

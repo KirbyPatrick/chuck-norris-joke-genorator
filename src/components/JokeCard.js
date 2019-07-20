@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import cardImage from "../cardImage.png";
+import cardImage from "../img/cardImage.png";
 import NewJokeButton from "./NewJokeButton";
 
 class JokeCard extends Component {
