@@ -20,7 +20,7 @@ const Contact = () => {
   return (
     <div className="cardStyle">
       <div>
-        <h1>Contact Information:</h1>
+        <h1>Connect With Me:</h1>
       </div>
       <div style={flexContainer}>
         <a href="https://github.com/KirbyPatrick" target="_blank">

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <Router>
         <div className="wrapper">
-          <Header />
+          <NavBar />
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
