@@ -23,7 +23,6 @@ class JokeCard extends Component {
   };
 
   handleClick() {
-    console.log("click worked!!!!!!!");
     this.setState({
       joke: this.getJoke()
     });
@@ -38,6 +37,8 @@ class JokeCard extends Component {
           <div className="paragraphContainer ">
             <p>{this.state.joke}</p>
           </div>
+        </div>
+        <div className="mt-3">
           <NewJokeButton onClick={this.getJoke} />
         </div>
       </div>

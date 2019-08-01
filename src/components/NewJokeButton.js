@@ -1,17 +1,16 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
 
 class NewJokeButton extends React.Component {
   render() {
     return (
       <div className="buttonContainer ">
-        <Button
-          variant="contained"
-          color="secondary"
+        <button
+          type="button"
+          className="btn btn-danger"
           onClick={this.props.onClick}
         >
           New Fact
-        </Button>
+        </button>
       </div>
     );
   }
