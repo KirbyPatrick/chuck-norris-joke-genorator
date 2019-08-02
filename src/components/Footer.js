@@ -15,14 +15,17 @@ const Footer = () => {
   return (
     <div className="container fixed-bottom d-none d-sm-block">
       <div className="row">
-        <div className="col boxy mx-auto">
-          <div className="col-1">
-            <a href="https://github.com/KirbyPatrick" target="_blank">
+        <div className="col col-md-5 mx-auto d-flex justify-content-around mb-2">
+          <div className="d-inline col-2">
+            <a
+              href="https://github.com/KirbyPatrick/chuck-norris-joke-genorator"
+              target="_blank"
+            >
               <img style={imgStyles} src={githubLogo} alt="github link" />
             </a>
           </div>
 
-          <div className="col-1">
+          <div className="d-inline">
             <a
               href="https://www.linkedin.com/in/patrick-d-kirby/"
               target="_blank"
@@ -31,7 +34,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="col-1">
+          <div className="d-inline">
             <a
               href="https://www.codewars.com/users/KirbyPatrick"
               target="_blank"
@@ -40,13 +43,13 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="col-1">
+          <div className="d-inline">
             <a href="https://twitter.com/Kirby_Patrick" target="_blank">
               <img style={imgStyles} src={twitterLogo} alt="twitter link" />
             </a>
           </div>
 
-          <div className="col-1">
+          <div className="d-inline">
             <a href="mailto:pKirbyInAtx@gmail.com">
               <img style={imgStyles} src={emailLogo} alt="email link" />
             </a>

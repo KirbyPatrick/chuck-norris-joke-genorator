@@ -19,7 +19,10 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-2 mt-4 mx-auto">
-            <a href="https://github.com/KirbyPatrick" target="_blank">
+            <a
+              href="https://github.com/KirbyPatrick/chuck-norris-joke-genorator"
+              target="_blank"
+            >
               <img style={imgStyles} src={githubLogo} alt="github link" />
             </a>
           </div>

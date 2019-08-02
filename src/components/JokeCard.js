@@ -35,7 +35,7 @@ class JokeCard extends Component {
           <h1>FACT:</h1>
           <img className="cardImage" src={cardImage} alt="" />
           <div className="paragraphContainer ">
-            <p>{this.state.joke}</p>
+            <p className="mt-2">{this.state.joke}</p>
           </div>
         </div>
         <div className="mt-3">
