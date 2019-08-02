@@ -11,9 +11,11 @@ const NavBar2 = () => {
             <Link to="/">
               <li className="ml-3 mr-3 text-dark">Home</li>
             </Link>
+
             <Link to="/about">
               <li className="ml-3 mr-3 text-dark">About</li>
             </Link>
+
             <Link to="/contact">
               <li className="ml-3 mr-3 text-dark">Contact</li>
             </Link>
