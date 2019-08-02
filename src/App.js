@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./App.css";
 
-import NavBar from "./components/NavBar";
+import NavBar2 from "./components/NavBar2";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <Router>
         <div className="wrapper">
-          <NavBar />
+          <NavBar2 />
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
