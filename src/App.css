@@ -48,10 +48,10 @@ img {
 }
 
 .cardStyle {
-  margin: auto;
+  /* margin: auto; */
   margin-top: 25px;
-  width: 70%;
-  height: 450px;
+  /* width: 70%; */
+  height: 500px;
   text-align: center;
   padding: 5px;
   background: #28a6dc;

@@ -12,7 +12,7 @@ const imgStyles = {
 
 const Contact = () => {
   return (
-    <div className="cardStyle">
+    <div className="cardStyle col-lg-6 mx-auto">
       <div>
         <h1 className="mb-5">Connect With Me:</h1>
       </div>

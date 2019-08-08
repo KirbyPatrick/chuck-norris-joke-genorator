@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="container fixed-bottom d-none d-sm-block">
       <div className="row">
         <div className="col col-md-5 mx-auto d-flex justify-content-around mb-2">
-          <div className="d-inline col-2">
+          <div className="d-inline">
             <a
               href="https://github.com/KirbyPatrick/chuck-norris-joke-genorator"
               target="_blank"

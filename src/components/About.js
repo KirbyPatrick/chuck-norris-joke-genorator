@@ -8,7 +8,7 @@ const aboutH1Styles = {
 
 const About = () => {
   return (
-    <div className="cardStyle">
+    <div className="cardStyle col-lg-6 mx-auto">
       <h1>About This App:</h1>
       <img className="cardImage" src={kickPic} alt="Chuck Norris kicking" />
       <p className="mt-4" style={aboutH1Styles}>

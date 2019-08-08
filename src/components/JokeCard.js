@@ -30,16 +30,18 @@ class JokeCard extends Component {
 
   render() {
     return (
-      <div>
-        <div className="cardStyle">
-          <h1>FACT:</h1>
-          <img className="cardImage" src={cardImage} alt="" />
-          <div className="paragraphContainer ">
-            <p className="mt-2">{this.state.joke}</p>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="cardStyle col-lg-6 mx-auto">
+            <h1>FACT:</h1>
+            <img className="cardImage" src={cardImage} alt="" />
+            <div className="paragraphContainer">
+              <p className="mt-2">{this.state.joke}</p>
+            </div>
+            <div className="mt-3">
+              <NewJokeButton onClick={this.getJoke} />
+            </div>
           </div>
-        </div>
-        <div className="mt-3">
-          <NewJokeButton onClick={this.getJoke} />
         </div>
       </div>
     );
