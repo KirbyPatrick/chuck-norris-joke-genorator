@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const NavBar2 = () => {
   return (
     <nav class="container-fluid bg-danger">
-      <div class="row">
-        <div className="col-md-4 mx-auto">
+      <div class="row mx-auto">
+        <div className="col-lg-4 mx-auto boxy text-center font-weight-bolder">
           <ul className="mt-3">
             <Link to="/">
               <li className="ml-3 mr-3 text-dark">Home</li>
@@ -22,7 +22,7 @@ const NavBar2 = () => {
           </ul>
         </div>
 
-        <div class="col-lg-4 d-none d-xl-block ">
+        <div className="col-lg-4 d-none d-xl-block">
           <h1 className="text-center mt-2">Chuck Norris Facts!</h1>
         </div>
 

@@ -38,7 +38,7 @@ class JokeCard extends Component {
             <div className="paragraphContainer">
               <p className="mt-2">{this.state.joke}</p>
             </div>
-            <div className="mt-3">
+            <div className="mt-2">
               <NewJokeButton onClick={this.getJoke} />
             </div>
           </div>
