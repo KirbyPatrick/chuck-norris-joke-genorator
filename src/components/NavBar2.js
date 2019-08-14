@@ -6,7 +6,7 @@ const NavBar2 = () => {
   return (
     <nav class="container-fluid bg-danger">
       <div class="row mx-auto">
-        <div className="col-lg-4 mx-auto boxy text-center font-weight-bolder">
+        <div className="col-lg-4 mx-auto text-center font-weight-bolder">
           <ul className="mt-3">
             <Link to="/">
               <li className="ml-3 mr-3 text-dark">Home</li>
